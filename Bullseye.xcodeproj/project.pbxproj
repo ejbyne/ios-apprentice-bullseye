@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6482295E1B0A6BD800B1D4A6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482295D1B0A6BD800B1D4A6 /* AboutViewController.swift */; };
 		64DC3EBC1B01F689007D874A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC3EBB1B01F689007D874A /* AppDelegate.swift */; };
 		64DC3EBE1B01F689007D874A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC3EBD1B01F689007D874A /* ViewController.swift */; };
 		64DC3EC11B01F689007D874A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC3EBF1B01F689007D874A /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6482295D1B0A6BD800B1D4A6 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		64DC3EB61B01F689007D874A /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DC3EBA1B01F689007D874A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64DC3EBB1B01F689007D874A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				64DC3EBB1B01F689007D874A /* AppDelegate.swift */,
 				64DC3EBD1B01F689007D874A /* ViewController.swift */,
 				64DC3EBF1B01F689007D874A /* Main.storyboard */,
+				6482295D1B0A6BD800B1D4A6 /* AboutViewController.swift */,
 				64DC3EC21B01F689007D874A /* Images.xcassets */,
 				64DC3EC41B01F689007D874A /* LaunchScreen.xib */,
 				64DC3EB91B01F689007D874A /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6482295E1B0A6BD800B1D4A6 /* AboutViewController.swift in Sources */,
 				64DC3EBE1B01F689007D874A /* ViewController.swift in Sources */,
 				64DC3EBC1B01F689007D874A /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				64DC3ED71B01F689007D874A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64DC3ED81B01F689007D874A /* Build configuration list for PBXNativeTarget "BullseyeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				64DC3EDA1B01F689007D874A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
