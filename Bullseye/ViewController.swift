@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    startNewRound()
+    startNewGame()
     updateLabels()
   }
 
@@ -51,11 +51,12 @@ class ViewController: UIViewController {
                                   message: message,
                                   preferredStyle: .Alert)
     let action = UIAlertAction(title: "OK", style: .Default,
-                               handler: nil)
+                               handler: { action in
+                                 self.startNewRound()
+                                 self.updateLabels()
+                               })
     alert.addAction(action)
     presentViewController(alert, animated: true, completion: nil)
-    startNewRound()
-    updateLabels()
   }
   
   @IBAction func sliderMoved(slider: UISlider) {
@@ -73,6 +74,17 @@ class ViewController: UIViewController {
     targetLabel.text = String(targetValue)
     scoreLabel.text = String(score)
     roundLabel.text = String(round)
+  }
+  
+  @IBAction func startOver() {
+    startNewGame()
+    updateLabels()
+  }
+  
+  func startNewGame() {
+    score = 0
+    round = 0
+    startNewRound()
   }
 
 }
